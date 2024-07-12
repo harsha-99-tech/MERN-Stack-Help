@@ -9,8 +9,9 @@ npm
 
 ## Start
 
-### Create & Run react app
+### Create & Run [react](https://react.dev/learn) app
 
-'''bash
+```bash
 npx create-react-app ./
 npm start
+```
