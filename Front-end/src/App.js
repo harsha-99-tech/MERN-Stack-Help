@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import Body from "./components/Body/Body";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <header className="App-header">
-        <h1>Welcome to MERN Stack Lesson</h1>
-        <button className="start-btn">Get Start</button>
-      </header>
+      <Navbar />
+      <Hero />
+      <Body />
     </div>
   );
 }

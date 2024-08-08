@@ -2,21 +2,25 @@
 
 MERN Stack Start to end all useful codes and recourses for easy reuse.
 
-## Pre Req:
+## **Front-End React.js**
+
+On the front-end folder
+
+### Pre Req:
 
 - Node.js
 - npm
 
-## Start
+### Start
 
-### Create & Run [REACT](https://react.dev/learn) app
+#### Create & Run [REACT](https://react.dev/learn) app
 
 ```bash
 npx create-react-app ./
 npm start
 ```
 
-### Folder Structure
+#### Folder Structure
 
 ```markdown
 src
@@ -31,7 +35,7 @@ src
 └── index.css
 ```
 
-### Dependencis
+#### Dependencis
 
 ```bash
 npm i react-router-dom
@@ -42,15 +46,52 @@ npm i @emotion/styled
 npm i axios
 ```
 
-Useful Sites
-
-- [MUI](https://mui.com)
-
-- [W3Schools](https://www.w3schools.com)
-
-### Styling - [Tailwind](https://tailwindcss.com)
+#### Styling - [Tailwind](https://tailwindcss.com)
 
 ```bash
 npm install -D tailwindcss
 npx tailwindcss init
 ```
+
+**Useful Sites**
+
+- [MUI](https://mui.com)
+- [Google Fonts](https://fonts.google.com)
+- [W3Schools](https://www.w3schools.com)
+
+## **Back-End Node.js & Express.js**
+
+On the back-end folder
+
+#### Create jason file
+
+```bash
+npm init
+```
+
+Answer the questions
+
+```bash
+package name: (back-end) mern-stack-help
+entry point: (index.js) server.js
+```
+
+#### File Structure
+
+```markdown
+Back-end
+├── app.js
+├── server.js
+├── controller.js
+└── package.jason
+```
+
+#### Install express
+
+```bash
+npm i
+npm i express
+npm i cors
+```
+
+cors -cross origin resource sharing ()
