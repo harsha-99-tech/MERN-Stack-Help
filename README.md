@@ -95,3 +95,17 @@ npm i cors
 ```
 
 cors -cross origin resource sharing ()
+
+## Run node server
+
+install nodemon
+
+```bash
+npm i nodemon -g
+```
+
+Run
+
+```bash
+nodemon server.js
+```
