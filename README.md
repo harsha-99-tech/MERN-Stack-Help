@@ -109,3 +109,16 @@ Run
 ```bash
 nodemon server.js
 ```
+
+## MongoDB Setup
+
+[MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
+
+```bash
+npm i mongoose
+```
+
+## Postman
+
+Need to install postmen to check CRUD operations
+[postman](https://www.postman.com/downloads/)
