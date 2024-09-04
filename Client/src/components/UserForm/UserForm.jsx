@@ -1,9 +1,16 @@
 import { Button, Grid, Input, Typography } from "@mui/material";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-const UserForm = (props) => {
+const UserForm = ({ addUser, submitted }) => {
   const [id, setId] = useState(0);
   const [name, setName] = useState("");
+
+  useEffect(() => {
+    if (!submitted) {
+      setId(0);
+      setName("");
+    }
+  }, [submitted]);
 
   return (
     <Grid container spacing={2} className="mb-8 block">
@@ -60,6 +67,9 @@ const UserForm = (props) => {
             opacity: "0.7",
             backgroundColor: "#00c6c6",
           },
+        }}
+        onClick={() => {
+          addUser({ id, name });
         }}
       >
         Submit
