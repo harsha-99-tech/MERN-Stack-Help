@@ -1,17 +1,22 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import PhotoCollage from "./components/Body/PhotoCollage";
-
-// import Body from "./components/Body/Body";
+import Test from "./components/Test";
+import About from "./components/About";
+import Users from "./Users"; // Import the Users component
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
-      <Hero />
-      <PhotoCollage />
-    </div>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/test" element={<Test />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/users" element={<Users />} /> {/* Add Users route */}
+      </Routes>
+    </>
   );
 }
 
