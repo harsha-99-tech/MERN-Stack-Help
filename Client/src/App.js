@@ -1,9 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Test from "./components/Test";
+import Hero from "./components/Home/Hero";
+import Test from "./components/Test/Test";
+import Contact from "./components/Contact";
 import About from "./components/About";
+
 import Users from "./Users"; // Import the Users component
 
 function App() {
@@ -14,7 +17,8 @@ function App() {
         <Route path="/" element={<Hero />} />
         <Route path="/test" element={<Test />} />
         <Route path="/about" element={<About />} />
-        <Route path="/users" element={<Users />} /> {/* Add Users route */}
+        <Route path="/users" element={<Users />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );

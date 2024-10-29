@@ -1,5 +1,5 @@
 import React from "react";
-import PhotoCollage from "./Body/PhotoCollage";
+import PhotoCollage from "./PhotoCollage";
 
 const Test = () => {
   return (

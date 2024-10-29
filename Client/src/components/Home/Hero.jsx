@@ -2,11 +2,14 @@ import { Button } from "@mui/material";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import ShootingStarsBackground from "./ShootingStarsBackground";
+import AuroraBackground from "./AuroraBackground";
+
 function Hero() {
   const navigate = useNavigate();
 
   return (
-    <div className=" mt-10">
+    <div className=" mt-10 ml-6 mr-6">
       <h1 className=" text-white">Learn MERN Stack from Beginning.</h1>
       <Button
         onClick={() => navigate("/users")}
@@ -25,6 +28,12 @@ function Hero() {
       >
         Users
       </Button>
+      <div className=" bg-slate-300 ">
+        <AuroraBackground />
+      </div>
+      <div className=" bg-lime-300 ">
+        <ShootingStarsBackground />
+      </div>
     </div>
   );
 }

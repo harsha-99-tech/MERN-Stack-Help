@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import UserForm from "./components/UserForm/UserForm";
-import UsersTable from "./components/UsersTable/UsersTable";
+import UserForm from "./components/User/UserForm";
+import UsersTable from "./components/User/UsersTable";
 import { Box } from "@mui/material";
 import Axios from "axios";
 
