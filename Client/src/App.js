@@ -6,6 +6,7 @@ import Hero from "./components/Home/Hero";
 import Test from "./components/Test/Test";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import UserForm from "./API/UserForm";
 
 import Users from "./Users"; // Import the Users component
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/users" element={<Users />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/userform" element={<UserForm />} />
       </Routes>
     </>
   );
