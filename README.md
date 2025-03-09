@@ -110,6 +110,16 @@ Run
 nodemon server.js
 ```
 
+Edit Package.json
+
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  
+```bash
+npm run dev
+```
+
 ## MongoDB Setup
 
 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
